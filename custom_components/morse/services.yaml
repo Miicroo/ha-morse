@@ -1,0 +1,18 @@
+say:
+  name: Say
+  description: Says the specified word(s) in morse.
+  fields:
+    message:
+      name: Message
+      description: Message to say
+      required: true
+      example: Hello world
+      selector:
+        text:
+    targets:
+      description:
+        An array of lights to show the message on
+      example: light.my_light
+      selector:
+        object:
+      required: true

@@ -1,0 +1,8 @@
+{
+    "domain": "morse",
+    "name": "Morse",
+    "documentation": "https://github.com/Miicroo/ha-morse",
+    "dependencies": [],
+    "codeowners": ["@Miicroo"],
+    "requirements": []
+}
